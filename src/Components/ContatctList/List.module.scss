@@ -1,0 +1,27 @@
+.contact_list {
+    width: 400px;
+    margin: 0 auto 20px auto;
+}
+.delete_button {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #e7e1e0;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.contact_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #e7e1e0;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-bottom: 20px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.contact_name {
+    max-width: 100px;
+}
